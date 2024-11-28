@@ -1,0 +1,95 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #e0bcbc;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Profile Section */
+#profile {
+    background: #b9b6b6;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.profile-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile-card p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style-type: square;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+#skills h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Experience Section */
+#experience h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.job ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+/* Academic Section */
+#academics ul {
+    list-style-type: circle;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
